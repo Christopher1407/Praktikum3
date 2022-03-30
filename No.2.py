@@ -30,12 +30,12 @@ def konvert(stack, input_int):
 
 stack = No2()
 input_int = float(input("Angka yang ingin dikonversi : "))
-desimal = input_int
-biner = bin(desimal).replace("0b","")
-oktal = oct(desimal).replace("0o","")
-hexa = hex(desimal).replace('0x',"")
+des = input_int
+biner = bin(des).replace("0b","")
+oktal = oct(des).replace("0o","")
+hexa = hex(des).replace('0x',"")
 
-print (f"Bilanga Desimal : {desimal}")
+print (f"Bilanga Desimal : {des}")
 print(f"Konversi Biner : {biner}")
-print(f"Konversi Oktal : {oktal}")
-print(f"Konversi Hexa  : {hexa}")
+print(f"Konversi Oktal : {okt}")
+print(f"Konversi hexa  : {hexa}")
